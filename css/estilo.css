@@ -1,0 +1,150 @@
+body {
+    font-family: Arial;
+    color: rgb(250, 240, 182);
+    background-attachment: fixed;
+}
+
+.titulo {
+    color: #d8a926;
+
+}
+
+hr {
+    height: 10px;
+    background-color:#2e1c0d;
+    border: none;
+}
+
+#linha{
+    border: 3px solid #d8a926;
+}
+
+p {
+    font-family: Arial;
+    font-size: 25px;
+    text-align: justify;
+}
+
+#menu {
+    height: 30PX;
+    width: 960px;
+    padding: 10px 0px;
+    text-align: center;
+    word-spacing: 5px;
+    background-color: #A67F5D;
+    color: #f6f6f6
+}
+
+/*FORMATAÇÃO DO LINK*/
+
+.cabecalho {
+    height: 200px;
+    margin: 5px 0px;
+
+}
+
+.cabecalho img {
+    margin: 0px;
+    width: 960px;
+    height: 200px;
+    padding: 0px;
+}
+
+#conteudo {
+    width: 960px;
+}
+
+#principal {
+    word-break:break-all;
+    background-color: rgb(46, 29, 9);
+    height: 4638px;;
+    width: 680px;
+    float: left;
+    margin: 5px 0px 10px 0px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#principal2 {
+    word-break:break-all;
+    background-color: rgb(46, 29, 9);
+    height: auto;
+    width: 680px;
+    justify-content: center;
+    margin:auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.lateral {
+    word-break:break-all;
+    text-align: right;
+    width: 255px;
+    border-radius: 10px;
+    margin: 0px 0px 5px 5px;
+    font-size: 20px;
+    float: right;
+    padding: 3px;
+    height: 4638px;
+    margin: 5px 0px 5px 5px;
+    background-color: #594936;
+}
+
+.lateral h5 {
+    text-align: center;
+    text-decoration: underline;
+}
+.lateral h4 {
+    text-decoration: underline;
+    color: #d8a926;
+}
+
+.lateral img {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+.lateral p {
+    font-family: Arial;
+    font-size: 20px;
+    text-align: justify;
+}
+
+#rodape {
+    width: 960px;
+    height: 80px;
+    clear: both;
+    text-align: center;
+    background-color: #A67F5D;
+}
+
+#pagina {
+    margin: 15px auto;
+    border: 2px solid #C6BA88;
+    width: 960px;
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+a:visited {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:hover {
+    /*#sobre o link*/
+    text-decoration: none;
+    background-color: #2e1c0d;
+    color: #f7d9a6;
+    padding: 5px;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
